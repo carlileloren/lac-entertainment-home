@@ -1,0 +1,101 @@
+/* stylesheet*/
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    font-size: 15px;
+    background-color: #f4f3f1;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  button {
+    flex-basis: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #ae7b37;
+    color: #f4f3f1;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-color: #ae7b37;
+    border-style: solid;
+  }
+  
+  form {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    gap: 10px;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px dashed #c9bcfc3b;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background: #ae7b37;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    font-size: 10px;
+  }
+  
+  h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: d8ceff;
+    font-size: 75px;
+  }
+  
+  p, h2 {
+    color: d8ceff;
+  }
+  
+  .contactform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 0px 10px;
+    gap: 15px;
+  }
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px;
+  }
+  
+  .mainimg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .name {
+    display: flex;
+    flex: 1 1 160px;
+  }
+  
+  .topnav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 40px;
+    margin: 50px 25px 5px 25px;
+  }
