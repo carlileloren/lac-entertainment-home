@@ -59,8 +59,11 @@ body {
     font-size: 75px;
   }
   
-  p, h2 {
+ h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: d8ceff;
+    font-size: 50px;
+    text-align: center;
   }
   
   .contactform {
